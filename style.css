@@ -17,42 +17,59 @@ h1{display: inline-block;
 #logo{vertical-align: middle;}
 
 /*fine navbar*/
-
+/*inizio bottoni*/
 body{background-color:#F6F8F9;}
-#BOTTONE1
-{
-    color:white;
-    background-color: #47ADF1;
+
+.BOTTONE{
     border-radius: 5px;
-    border: 0px;
+    border: lightgray;
     width: 80px;
     height: 35px;
 }
-#BOTTONE2
+.AZZURRO
 {
+    
+    color:white;
+    background-color: #47ADF1;
+}
+.BIANCO{
+    
     color:#CFD4D8;
     background-color: white;
-    border-radius: 5px;
-    /*da fixare*/
-    border: #D5D9DD;
+    border-color: #D5D9DD;
     width: 100px;
     height: 35px;
 }
 
-body >div
+
+
+#contenitoretasti
 {
     background-color: white;
     height: 65px;
     margin-top: 50px;
-    /*
-    margin-left: 50px;
-    margin-right: 50px;
-    /*questa parte è stata annlullata da regola di reset*/
+    
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 35px;
+    
     
     
 
 }
-body >span
+
+
+/* fine bottoni */
+
+#contenitorecorpopagina
 {
-    padding-top: 1px;
+    margin-top: 5px;
+    background-color: white;
+    padding-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.task
+{
+    
 }
