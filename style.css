@@ -1,0 +1,58 @@
+/*regola di reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*fine reset*/
+
+/*navbar*/
+header{
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+h1{display: inline-block;
+}
+#logo{vertical-align: middle;}
+
+/*fine navbar*/
+
+body{background-color:#F6F8F9;}
+#BOTTONE1
+{
+    color:white;
+    background-color: #47ADF1;
+    border-radius: 5px;
+    border: 0px;
+    width: 80px;
+    height: 35px;
+}
+#BOTTONE2
+{
+    color:#CFD4D8;
+    background-color: white;
+    border-radius: 5px;
+    /*da fixare*/
+    border: #D5D9DD;
+    width: 100px;
+    height: 35px;
+}
+
+body >div
+{
+    background-color: white;
+    height: 65px;
+    margin-top: 50px;
+    /*
+    margin-left: 50px;
+    margin-right: 50px;
+    /*questa parte è stata annlullata da regola di reset*/
+    
+    
+
+}
+body >span
+{
+    padding-top: 1px;
+}
