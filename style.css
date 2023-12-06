@@ -12,13 +12,18 @@ header{
     padding-left: 50px;
     padding-top: 20px;
 }
-h1{display: inline-block;
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 48px;
+    
 }
 #logo{vertical-align: middle;}
 
 /*fine navbar*/
 /*inizio bottoni*/
-body{background-color:#F6F8F9;}
+body{background-color:#F6F8F9;
+font-family: sans-serif;}
 
 .BOTTONE{
     border-radius: 5px;
@@ -51,7 +56,8 @@ body{background-color:#F6F8F9;}
     
     margin-left: 75px;
     margin-right: 75px;
-    padding-top: 35px;
+    padding-top: 18px;
+    padding-left: 50px;
     
     
     
@@ -63,13 +69,36 @@ body{background-color:#F6F8F9;}
 
 #contenitorecorpopagina
 {
-    margin-top: 5px;
+    margin-top: 2.5px;
     background-color: white;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: 75px;
     margin-right: 75px;
+    padding-left: 50px;
 }
-.task
-{
-    
+ul{
+    list-style-type:none;
+}
+.icona{
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    padding-right: 5px;
+   
+}
+.mark{
+    color: green;
+    border:  green 1px solid;
+    text-align: center;
+    /*rivedere perchè non si riesce a sistemare i simpoli*/
+}
+.cross{
+    color: red;
+    border:  red 1px solid;
+    text-align: center;
+    /*rivedere perchè non si riesce a sistemare i simpoli*/
+}
+li{
+    padding-top: 15px;
+    padding-left: 7px;
 }
