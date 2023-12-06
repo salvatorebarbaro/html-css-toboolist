@@ -22,8 +22,9 @@ h1{
 
 /*fine navbar*/
 /*inizio bottoni*/
-body{background-color:#F6F8F9;
-font-family: sans-serif;}
+body{
+    background-color:#F6F8F9;
+font-family:Arial, sans-serif;}
 
 .BOTTONE{
     border-radius: 5px;
@@ -66,7 +67,7 @@ font-family: sans-serif;}
 
 
 /* fine bottoni */
-
+/*inizio corpo lista*/
 #contenitorecorpopagina
 {
     margin-top: 2.5px;
@@ -75,30 +76,67 @@ font-family: sans-serif;}
     margin-left: 75px;
     margin-right: 75px;
     padding-left: 50px;
+    padding-bottom: 45px;
 }
 ul{
     list-style-type:none;
 }
 .icona{
-    height: 16px;
-    width: 16px;
+    padding: 0px 5px;
     border-radius: 50%;
-    padding-right: 5px;
-   
+    margin-right: 5px;
+    display: inline-block;
 }
 .mark{
     color: green;
     border:  green 1px solid;
     text-align: center;
-    /*rivedere perchè non si riesce a sistemare i simpoli*/
+    
 }
 .cross{
     color: red;
     border:  red 1px solid;
     text-align: center;
-    /*rivedere perchè non si riesce a sistemare i simpoli*/
+    
 }
 li{
     padding-top: 15px;
     padding-left: 7px;
+    margin-bottom: 12px;
 }
+.elemento{
+    
+    border-radius: 12px;
+    font-size: 10px;
+    margin-left: 7.5px;
+    padding: 5px;
+
+    
+}
+.blu{
+    background-color: #47ADF1;
+    color: white;
+}
+.viola{
+    background-color: #9C72E4;
+    color: white;
+
+}
+.verde{
+    background-color: #64c0a9;
+    color: white;
+
+}
+.arancione{
+    background-color: #f29e33;
+    color: white;
+}
+.rosa{
+    background-color: #d863a1;
+    color: white;
+}
+.verdechiaro{background-color: #b0c926;
+    color: white;
+
+}
+/*fine corpo lista*/
